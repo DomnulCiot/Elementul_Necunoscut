@@ -662,6 +662,7 @@ GameObject:
   - component: {fileID: 1302090324}
   - component: {fileID: 1302090325}
   - component: {fileID: 1302090326}
+  - component: {fileID: 1302090327}
   m_Layer: 5
   m_Name: QuizII_Control
   m_TagString: Untagged
@@ -702,12 +703,19 @@ MonoBehaviour:
   answer: 0
   Question_Text: {fileID: 1137833556}
   question:
+  - Q: Aproximativ care este duritatea Borului pe scara Mohs ?
+    answer: 9
+  - Q: In ce an a fost descoperit Tabelul Periodic ?
+    answer: 1889
+  - Q: In ce an a fost descoperit Tabelul Periodic ?
+    answer: 1889
   - Q: In ce an a fost descoperit Tabelul Periodic ?
     answer: 1889
   img: {fileID: 617176969}
   FeedBack_Button: {fileID: 1962988193}
   text_button: {fileID: 2016486343}
   GO: {fileID: 1898392313}
+  FB: {fileID: 1302090327}
 --- !u!114 &1302090325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -733,6 +741,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prop: {fileID: 0}
   var_prim: 1
+--- !u!114 &1302090327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1302090322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2238f9d1c1622849adcfad4834bbc5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChAs: {fileID: 0}
+  fader: {fileID: 1680999319}
+  contor: 0
 --- !u!1 &1396027760
 GameObject:
   m_ObjectHideFlags: 0
@@ -1304,7 +1326,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1962988191}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1302090327}
+        m_MethodName: DoStuff
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &2016486342

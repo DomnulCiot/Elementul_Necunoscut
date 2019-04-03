@@ -28,7 +28,7 @@ public class Check_Answer : MonoBehaviour {
             btn3.interactable = false;
             btn4.interactable = false;
             FB.contor = true;
-            FeedBack_btn.Done[Move_Var.var] = true;
+            FeedBack_btn.Done[FeedBack_btn.x-1] = true;
 
 
         }

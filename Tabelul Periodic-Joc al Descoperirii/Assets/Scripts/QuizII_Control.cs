@@ -13,6 +13,7 @@ public class QuizII_Control : MonoBehaviour {
     public Button FeedBack_Button;
     public Text text_button;
     public GameObject GO;
+    public FeedBack_btn FB;
 
     void Start ()
     {
@@ -40,6 +41,8 @@ public class QuizII_Control : MonoBehaviour {
             GO.SetActive(false);
             FeedBack_Button.interactable = true;
             text_button.text = "NEXT";
+            FB.contor = true;
+            FeedBack_btn.Done[FeedBack_btn.x - 1] = true;
 
         }
         else
@@ -50,6 +53,7 @@ public class QuizII_Control : MonoBehaviour {
             text_button.text = "RETRY";
         }
     }
+
 
 
 }

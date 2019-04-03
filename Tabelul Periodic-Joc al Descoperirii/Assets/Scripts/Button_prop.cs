@@ -24,8 +24,8 @@ public class Button_prop : MonoBehaviour
 
          }
          else*/
-             if (Index<=4)
-             if (FeedBack_btn.Done[Index]==true)
+             if (Index<=118)
+             if (FeedBack_btn.Done[Index-1]==true)
              {
                  ColorBlock cb = button.colors;
                  cb.normalColor = NewColor2;

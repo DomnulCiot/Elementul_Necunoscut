@@ -10,6 +10,6 @@ public class Question_Manager : MonoBehaviour {
     public Move_Var var;
     void Start ()
     {
-        text.text = questions[var.var_prim-1].Q;
+        text.text = questions[Move_Var.var-1].Q;
     }
 }

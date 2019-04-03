@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tabelul Periodic-Joc al Descoperirii", "Tabelul Periodic-Joc al Descoperirii.csproj", "{2EF1F625-0A93-C406-C20A-FFE125C13CB1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tabelul Periodic-Joc al Descoperirii.Editor", "Tabelul Periodic-Joc al Descoperirii.Editor.csproj", "{1ADABADE-1B87-CBBB-77FD-CF114C12A97E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tabelul Periodic-Joc al Descoperirii.Editor", "Tabelul Periodic-Joc al Descoperirii.Editor.csproj", "{1ADABADE-1B87-CBBB-77FD-CF114C12A97E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tabelul Periodic-Joc al Descoperirii.Editor", "Tabelul Periodic-Joc al Descoperirii.Editor.csproj", "{1ADABADE-1B87-CBBB-77FD-CF114C12A97E}"
 EndProject
@@ -23,16 +21,11 @@ Global
 		{1ADABADE-1B87-CBBB-77FD-CF114C12A97E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1ADABADE-1B87-CBBB-77FD-CF114C12A97E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1ADABADE-1B87-CBBB-77FD-CF114C12A97E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1ADABADE-1B87-CBBB-77FD-CF114C12A97E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1ADABADE-1B87-CBBB-77FD-CF114C12A97E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1ADABADE-1B87-CBBB-77FD-CF114C12A97E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1ADABADE-1B87-CBBB-77FD-CF114C12A97E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1ADABADE-1B87-CBBB-77FD-CF114C12A97E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1ADABADE-1B87-CBBB-77FD-CF114C12A97E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1ADABADE-1B87-CBBB-77FD-CF114C12A97E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1ADABADE-1B87-CBBB-77FD-CF114C12A97E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9DC5D44-001A-4AC2-983F-8BAD56B4453C}
 	EndGlobalSection
 EndGlobal

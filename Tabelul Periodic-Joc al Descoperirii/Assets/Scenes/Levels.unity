@@ -367,7 +367,7 @@ MonoBehaviour:
   contor: 0
   NewColor2: {r: 0, g: 0, b: 0, a: 0}
   numb_question: 0
-  fader: {fileID: 0}
+  fader: {fileID: 1231390988}
 --- !u!114 &131627768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -637,7 +637,7 @@ MonoBehaviour:
   button: {fileID: 2028388008}
   text: {fileID: 316588832}
   contor: 2
-  NewColor2: {r: 0, g: 0, b: 0, a: 0}
+  NewColor2: {r: 0.91764706, g: 0.050980393, b: 0.4627451, a: 1}
   numb_question: 1
   fader: {fileID: 1231390988}
 --- !u!114 &172862605
@@ -802,10 +802,10 @@ MonoBehaviour:
   Index: 6
   button: {fileID: 1396280659}
   text: {fileID: 1760934025}
-  contor: 0
+  contor: 1
   NewColor2: {r: 0, g: 0, b: 0, a: 0}
-  numb_question: 0
-  fader: {fileID: 0}
+  numb_question: 5
+  fader: {fileID: 1231390988}
 --- !u!114 &272368531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2735,7 +2735,7 @@ MonoBehaviour:
   contor: 0
   NewColor2: {r: 0, g: 0, b: 0, a: 0}
   numb_question: 0
-  fader: {fileID: 0}
+  fader: {fileID: 1231390988}
 --- !u!114 &935980833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3983,7 +3983,7 @@ MonoBehaviour:
   contor: 0
   NewColor2: {r: 0, g: 0, b: 0, a: 0}
   numb_question: 0
-  fader: {fileID: 0}
+  fader: {fileID: 1231390988}
 --- !u!114 &1304077866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4409,7 +4409,29 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 272368532}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 272368530}
+        m_MethodName: Quiz
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 272368534}
+        m_MethodName: move
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!224 &1408215594
@@ -4598,7 +4620,7 @@ MonoBehaviour:
   contor: 0
   NewColor2: {r: 0, g: 0, b: 0, a: 0}
   numb_question: 0
-  fader: {fileID: 0}
+  fader: {fileID: 1231390988}
 --- !u!114 &1460237243
 MonoBehaviour:
   m_ObjectHideFlags: 0

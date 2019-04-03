@@ -9,18 +9,28 @@ public class FeedBack_btn : MonoBehaviour {
     public bool contor;
     public static bool[] Done = new bool[]
         {
-            false,false,false,false,false
+            false,false,false,false,false,false,false,false,false,false,false,false,
+            false,false,false,false,false,false,false,false,false,false,false,false,
+            false,false,false,false,false,false,false,false,false,false,false,false,
+            false,false,false,false,false,false,false,false,false,false,false,false,
+            false,false,false,false,false,false,false,false,false,false,false,false,
+            false,false,false,false,false,false,false,false,false,false,false,false,
+            false,false,false,false,false,false,false,false,false,false,false,false,
+            false,false,false,false,false,false,false,false,false,false,false,false,
+            false,false,false,false,false,false,false,false,false,false,false,false,
+            false,false,false,false,false,false,false,false,false,false,false,false,
+
         };
     public static int[] Level = new int[]
     {
-        1,1,1,1,2
+        1,1,1,1,2,1
     };
-public int x;
+public static int x;
 
     // Use this for initialization
     void Start ()
 {
-    x = Move_Var.inddex;
+    //x = Move_Var.inddex;
 }
     public void DoStuff ()
     {
@@ -29,11 +39,21 @@ public int x;
             if (x < 118)
             {
             x++;
-            if (Level[x] == 1)
-                Move_Var.var++;
-            else
-                Move_Var.var2++;
-                fader.Scene("Quiz");
+                Debug.Log(Level[x-1]);
+            if (Level[x-1] == 1)
+                {
+                    Move_Var.var++;
+                    fader.Scene("Quiz");
+                }
+                
+            else if (Level[x-1]==2)
+                {
+                    Move_Var.var2++;
+                    fader.Scene("Quiz II");
+
+                }
+               
+                
             }
             else
             {
@@ -43,7 +63,10 @@ public int x;
         }
         else
         {
-            fader.Scene("Quiz");
+            if (Level[x-1] == 1)
+                fader.Scene("Quiz");
+            else
+                fader.Scene("Quiz II");
         }
             
     }

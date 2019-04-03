@@ -486,7 +486,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 294.99997, y: -196}
-  m_SizeDelta: {x: 135.125, y: 76.25}
+  m_SizeDelta: {x: 135.3564, y: 76.29758}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &427281116
 MonoBehaviour:
@@ -1091,7 +1091,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -325, y: -73}
-  m_SizeDelta: {x: 135.125, y: 76.25}
+  m_SizeDelta: {x: 135.3564, y: 76.29758}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &578161622
 MonoBehaviour:
@@ -1202,7 +1202,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &615669374
@@ -1817,7 +1817,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -325, y: -196}
-  m_SizeDelta: {x: 135.125, y: 76.25}
+  m_SizeDelta: {x: 135.3564, y: 76.29758}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1017852751
 MonoBehaviour:
@@ -1875,7 +1875,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 295, y: -73}
-  m_SizeDelta: {x: 135.125, y: 76.25}
+  m_SizeDelta: {x: 135.3564, y: 76.29758}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1185421594
 MonoBehaviour:
@@ -3028,6 +3028,8 @@ MonoBehaviour:
     answer: 4
   - Q: Ce gust are Berilul ?
     answer: 1
+  - Q: Carei substante ii corespunde formula chimica C60 ?
+    answer: 1
   text: {fileID: 529075198}
   var: {fileID: 1747789497}
 --- !u!114 &1747789499
@@ -3081,6 +3083,10 @@ MonoBehaviour:
     A2: Sarat
     A3: Amar
     A4: Acru
+  - A1: Fulerena
+    A2: Diamant
+    A3: Histeina
+    A4: Cisteina
   text1: {fileID: 1990599215}
   text2: {fileID: 1374022208}
   text3: {fileID: 1013563823}

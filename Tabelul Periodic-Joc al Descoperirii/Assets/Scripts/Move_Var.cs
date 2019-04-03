@@ -18,6 +18,7 @@ public class Move_Var : MonoBehaviour {
     public void move ()
     {
         inddex = prop.Index;
+        FeedBack_btn.x = inddex;
         if (prop.contor==1)
         var = prop.numb_question;
         if (prop.contor == 2)
