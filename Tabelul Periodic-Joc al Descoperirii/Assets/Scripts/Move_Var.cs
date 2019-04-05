@@ -9,6 +9,7 @@ public class Move_Var : MonoBehaviour {
     public int var_prim;
     public static int var2;
     public static int inddex;
+    private int cont1 = 0, cont2 = 0;
 
     void Start ()
     {
@@ -19,10 +20,17 @@ public class Move_Var : MonoBehaviour {
     {
         inddex = prop.Index;
         FeedBack_btn.x = inddex;
-        if (prop.contor==1)
-        var = prop.numb_question;
-        if (prop.contor == 2)
-            var2 = prop.numb_question;
+        cont1 = 0;
+        cont2 = 0;
+        for (int i=1; i<=inddex; i++)
+        {
+            if (FeedBack_btn.Level[i - 1] == 1)
+                cont1++;
+            if (FeedBack_btn.Level[i - 1] == 2)
+                cont2++;
+            var = cont1;
+            var2 = cont2;
+        }
     }
 	
 }

@@ -10,7 +10,7 @@ public class Button_prop : MonoBehaviour
     public Text text;
     public int contor;
     public Color NewColor2;
-    public int numb_question ;
+    //public int numb_question ;
     public Fader fader;
     void Start()
     {
